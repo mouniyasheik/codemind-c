@@ -7,12 +7,12 @@ int main()
     
     scanf("%d %d %d", &A, &B, &C);
  
-    if (A >= B && A >= C)
+    if (A > B && A > C)
         printf("%d",A);
  
-    if (B >= A && B >= C)
+    if (B > A && B > C)
         printf("%d",B);
  
-    if (C >= A && C >= B)
+    if (C > A && C > B)
         printf("%d",C);
-}        
+}
