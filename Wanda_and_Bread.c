@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,e;
-    scanf("%d%d%d",&a,&b,&c);
-    e=b*c;
-    if(a<=e)
+    int n,m,k,s;
+    scanf("%d%d%d",&n,&m,&k);
+    s=m*k;
+    if(n<=s)
     printf("YES");
     else
     printf("NO");
