@@ -1,3 +1,13 @@
+/*n=int(input())
+s=0
+i=1
+for i in range(n):
+    if n//i==0:
+        s=s+i
+if s>n:
+    print("True")
+else:
+    print("False")*/
 #include<stdio.h>
 int main()
 {
@@ -18,4 +28,4 @@ int main()
     {
         printf("False");
     }
-}
+}    
